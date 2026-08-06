@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Бурятский народный ансамбль "Аялга"</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+        <a href="#" class="logo">
+            <div class="logo-icon"><i class="fas fa-music"></i></div>
+            <div class="logo-text">Аялга</div>
+        </a>
+        
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#members">Участники</a></li>
+            <li><a href="#repertoire">Репертуар</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </div>
+    
+</header>
+
+ <!-- Hero Section -->
+ <section class="hero" id="home">
+  <div class="container hero-content">
+      <h1>Бурятский ансамбль "Аялга"</h1>
+      <p>Сохраняем и развиваем традиционную бурятскую музыку, исполняя народные песни и мелодии на оригинальных инструментах. Приглашаем вас в мир бурятской культуры через звуки хоомея, морин хуура и ятаги.</p>
+      <a href="#about" class="btn">Узнать больше</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+      <h2 class="section-title">Об ансамбле</h2>
+      <div class="about-content">
+          <div class="about-img">
+              <img src="https://sun9-54.userapi.com/s/v1/ig2/vjjGrgkeRbUoQf44Vd1Tjf8WiS74Pitz970KmS-XEumW7Q9vkZj06KlTxGoHF8tdHGbnvLNJBIDHEDCBZXWm8gtk.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,960x1280&from=bu&cs=960x0" alt="Бурятский ансамбль Аялга">
+          </div>
+          <div class="about-text">
+              <h3>Наша история и миссия</h3>
+              <p>Ансамбль "Аялга" (в переводе с бурятского - "мелодия") был основан в 2022 году в Москве группой энтузиастов, стремившихся сохранить и популяризировать традиционную народную музыку.</p>
+              <p> Мы исполняем как старинные бурятские напевы, так и современные композиции, созданные в народном стиле.</p>
+              <p>За годы существования ансамбль "Аялга" выступал на фестивалях и концертных площадках этнической музыки в России и за её пределами, получил множество наград и признание ценителей народного искусства.</p>
+              <a href="#contacts" class="btn">Связаться с нами</a>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+
+ <!-- Members Section -->
+ <section id="members" class="members">
+    <div class="container">
+        <h2 class="section-title">Наши участники</h2>
+        <div class="carousel-container">
+            <div class="carousel-track" id="carouselTrack">
+                
+            </div>
+            <button class="carousel-btn prev" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+            <button class="carousel-btn next" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+</section>
+
+ <!-- Repertoire Section -->
+ <section id="repertoire">
+  <div class="container">
+      <h2 class="section-title">Наш репертуар</h2>
+      <div class="repertoire-list">
+          <div class="repertoire-item">
+              <h3>Традиционные бурятские напевы</h3>
+              <p>Древние обрядовые и эпические песни бурятского народа, исполняемые в аутентичной манере.</p>
+          </div>
+          <div class="repertoire-item">
+              <h3>Мелодии степей</h3>
+              <p>Инструментальные композиции, передающие звуки природы Бурятии: шелест трав, ржание коней, завывание ветра в степи.</p>
+          </div>
+          <div class="repertoire-item">
+              <h3>Современные обработки</h3>
+              <p>Популярные мелодии, аранжированные в традиционном бурятском стиле с использованием народных инструментов.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery">
+  <div class="container">
+      <h2 class="section-title">Галерея</h2>
+      <div class="gallery-grid">
+          <div class="gallery-item" data-img="/img/foto4.jpg">
+              <img src="/img/foto4.jpg" alt="Выступление ансамбля">
+              <div class="gallery-overlay">
+                  <!-- <i class="fas fa-search-plus"></i> -->
+              </div>
+          </div>
+          <div class="gallery-item" data-img="/img/foto10.jpg">
+              <img src="https://sun9-21.userapi.com/s/v1/ig2/-J6fyp3aDDn8rimMRJW6ugdk9dSgoCRy-lrsG9_Mc6J-ObNrCB_P5bOFEkKv2IpdRdG0yaFMqrD0A4CUKcVWNFq8.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x107,240x160,360x240,480x320,540x360,640x427,720x480,1080x720,1280x853,1440x960,1920x1280&from=bu&cs=1920x0" alt="Концерт">
+              <div class="gallery-overlay">
+                  <!-- <i class="fas fa-search-plus"></i> -->
+              </div>
+          </div>
+          
+         
+          <div class="gallery-item" data-img="">
+              <img src="https://sun9-33.userapi.com/s/v1/ig2/3RLg-wGF3e8y3KS6InKcLbSH1D3HsXZGwcbnF6GQorx7ReUD148g_Ic4LSQTC7mebrczGRJGGWVpT-btC1XONmwh.jpg?quality=95&as=32x21,48x32,72x48,108x72,160x107,240x160,360x240,480x320,540x360,640x427,720x480,1080x720,1280x853,1440x960,1920x1280&from=bu&cs=1920x0" alt="Конкурс">
+              <div class="gallery-overlay">
+                  <!-- <i class="fas fa-search-plus"></i> -->
+              </div>
+          </div>
+          <div class="gallery-item" data-img="/img/foto9.jpg">
+              <img src="/img/foto9.jpg" alt="Фестиваль">
+              <div class="gallery-overlay">
+                  <!-- <i class="fas fa-search-plus"></i> -->
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Contacts Section -->
+<section id="contacts">
+  <div class="container">
+      <h2 class="section-title">Контакты</h2>
+      <div class="contacts-content">
+          <div class="contact-info">
+              <h3>Свяжитесь с нами</h3>
+              <div class="contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div>
+                      <h4>Адрес</h4>
+                      <p>г. Москва </p>
+                  </div>
+              </div>
+              <div class="contact-item">
+                  <i class="fas fa-phone"></i>
+                  <div>
+                      <h4>Телефон</h4>
+                      <p>+7 (995) 505-68-50</p>
+                  </div>
+              </div>
+              <div class="contact-item">
+                  <i class="fas fa-clock"></i>
+                  <div>
+                      <h4>Репетиции</h4>
+                      <p>Среда-Суббота</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+      <div class="footer-content">
+          <div class="footer-column">
+              <h3>Ансамбль "Аялга"</h3>
+              <p>Сохраняем и развиваем традиционную бурятскую музыку, знакомим с культурой бурятского народа через звучание древних инструментов и горловое пение.</p>
+          </div>
+          <div class="footer-column">
+              <h3>Быстрые ссылки</h3>
+              <ul style="list-style: none;">
+                  <li><a href="#home" style="color: #fff; text-decoration: none; line-height: 2;">Главная</a></li>
+                  <li><a href="#about" style="color: #fff; text-decoration: none; line-height: 2;">О нас</a></li>
+                  <li><a href="#members" style="color: #fff; text-decoration: none; line-height: 2;">Участники</a></li>
+                  <li><a href="#gallery" style="color: #fff; text-decoration: none; line-height: 2;">Галерея</a></li>
+                  <li><a href="#contacts" style="color: #fff; text-decoration: none; line-height: 2;">Контакты</a></li>
+              </ul>
+          </div>
+          <div class="footer-column">
+              <h3>Контакты</h3>
+              <p><i class="fas fa-map-marker-alt" style="margin-right: 10px;"></i> г. Москва</p>
+              <p><i class="fas fa-phone" style="margin-right: 10px;"></i> +7 (995) 505-68-50</p>
+                </div>
+      </div>
+      <div class="copyright">
+          <p>&copy; 2026 Бурятский ансамбль "Аялга". Все права защищены.</p>
+      </div>
+  </div>
+</footer>
+
+<!-- Modal for gallery images -->
+<div class="modal" id="imageModal">
+  <div class="modal-content">
+      <span class="close-modal" id="closeModal">&times;</span>
+      <img class="modal-img" id="modalImg" src="" alt="">
+  </div>
+</div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
