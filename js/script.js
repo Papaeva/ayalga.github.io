@@ -76,13 +76,13 @@
                 name: "Эльвира Байминова",
                 role: "Вокалист ансамбля",
                 description: "Горловое пение, игра на хомусе.",
-                img: "/img/Elvira.jpg"
+                img: "img/Elvira.jpg"
             },
             {
                 name: "Саяна Янданова",
                 role: "Вокалист ансамбля",
                 description: "Исполнитель на национальных инструментах.",
-                img: "/img/newFoto.jpg"
+                img: "img/newFoto.jpg"
             },
             {
                 name: "Ансамбль Аялга",
